@@ -1,0 +1,12 @@
+[client]
+toolbarMode = "viewer"  # Menyembunyikan opsi developer
+
+[browser]
+gatherUsageStats = false # Mematikan pengiriman data statistik
+
+[theme]
+base = "dark"          # Memaksa tema dasar (opsional)
+primaryColor = "#4285F4"
+
+[ui]
+hideTopBar = true       # Menyembunyikan garis dekorasi Streamlit di atas
