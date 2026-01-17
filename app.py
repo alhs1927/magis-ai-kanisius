@@ -9,7 +9,7 @@ import re
 # --- 1. KONFIGURASI HALAMAN ---
 st.set_page_config(
     page_title="Magis AI - Kanisius",
-    page_icon="🎓",
+    page_icon="logo magis ai.png",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -462,4 +462,5 @@ if st.session_state.result_text:
         file_name=f"MagisAI_{L_CODE}_Ignasian.docx",
         mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
         use_container_width=True
+
     )
